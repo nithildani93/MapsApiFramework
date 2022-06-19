@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="0" failures="0" name="cucumber.options.TestRunner" time="0" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="cucumber.options.TestRunner" time="2.698" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\nitarula\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10620002708214881604.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\nitarula\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6074362640741965475.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Users\nitarula\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/nitarula/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/nitarula/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Users\nitarula\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\System32;;."/>
     <property name="jdk.debug" value="release"/>
@@ -59,4 +59,7 @@
     <property name="java.vendor.version" value="Temurin-17.0.2+8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+  <testcase classname="Validating Place API&apos;s" name="Verify if Place is being Succesfully added using AddPlaceAPI #1" time="2.137"/>
+  <testcase classname="Validating Place API&apos;s" name="Verify if Place is being Succesfully added using AddPlaceAPI #2" time="0.341"/>
+  <testcase classname="Validating Place API&apos;s" name="Verify if Delete Place functionality is working" time="0.22"/>
 </testsuite>
