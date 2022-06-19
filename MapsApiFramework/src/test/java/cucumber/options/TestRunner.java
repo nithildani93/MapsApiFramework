@@ -10,7 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 					glue = {"stepDef"},
 					monochrome = true,
 					tags = "@Addplace",
-					plugin = {"pretty","html:target/cucumber-reports.html"})
+					plugin = {"pretty","json:target/cucumber.json",
+							})
 public class TestRunner {
 
 }
