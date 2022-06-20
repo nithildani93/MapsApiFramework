@@ -9,6 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = {"src\\test\\resources\\Features\\addPlaceFeature.feature"},
 					glue = {"stepDef"},
 					monochrome = true,
+					tags ="@Addplace",
 					plugin = {"pretty","json:target/cucumber.json",
 							})
 public class TestRunner {

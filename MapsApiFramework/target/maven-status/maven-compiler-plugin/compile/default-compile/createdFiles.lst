@@ -1,0 +1,6 @@
+org\pojo\AddPlace.class
+org\pojo\DeletePlace.class
+org\pojo\Location.class
+org\dataBind\AddPlacePayload.class
+org\dataBind\DeletePlacePayload.class
+org\pojo\AddPlaceResponse.class
