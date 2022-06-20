@@ -11,7 +11,7 @@ Scenario Outline: Verify if Place is being Succesfully added using AddPlaceAPI
 Examples:
 	|name 	 | language |address		   |
 	|newnameA |  English |Chennai Tamilnadu|
-	|newname2 | Spanish  | Kanyakumari Tamilnadu |
+	|newnameB | Spanish  | Kanyakumari Tamilnadu |
 
 @DeletePlace @Regression
 Scenario: Verify if Delete Place functionality is working
